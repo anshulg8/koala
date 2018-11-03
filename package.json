@@ -1,0 +1,22 @@
+{
+  "name": "koala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+  },
+  "author": "Anshul Garg",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^2.0.1",
+    "koa-mongo": "^1.4.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
